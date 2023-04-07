@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #d4e9ff;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.vertical {
+    display: flex;
+}
+
+.horizontal {
+    background-color: #f5faff;
+}
+
+.title {
+    font-size: 36px;
+    margin: 0;
+    padding: 14px;
+}
+
+button {
+    background-color: navy;
+    font-size: 18px;
+    color:azure;
+    border-radius: 7px;
+    border: 2px solid navy;
+    padding: 8px;
+}
